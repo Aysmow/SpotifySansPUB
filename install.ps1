@@ -2,16 +2,21 @@
 $PSDefaultParameterValues['Stop-Process:ErrorAction'] = 'SilentlyContinue'
 
 write-host @'
-***************** 
+----------------------------
+
 @Aysmow-Bypass:
+
 #Bypass-Spotify #Aysmow-Bypass #USA #France
-***************** 
+
+---------------------------- 
 '@
 
 write-host @'
-***************** 
+----------------------------
+
 Author: @Aysmow-Bypass
-***************** 
+
+----------------------------
 '@
 
 $SpotifyDirectory = "$env:APPDATA\Spotify"
@@ -210,11 +215,15 @@ Start-Process -WorkingDirectory $SpotifyDirectory -FilePath $SpotifyExecutable
 Write-Host 'Done.'
 
 write-host @'
-***************** 
-@mrpond message:
-#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
-Please retweet these hashtag, help me stop dictator government!
-***************** 
+----------------------------
+
+@Aysmow-Bypass:
+
+Good Luck  <3
+
+It's Working
+
+----------------------------
 '@
 
 exit
